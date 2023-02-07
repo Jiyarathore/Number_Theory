@@ -12,6 +12,9 @@ void printBinary(int num){
 int main(){
     int n=16;
 
+    if (n<=0) {
+        cout<<"not power of 2";
+    }
     if(n & (n-1)){
         cout<<"not power of 2";
     }
